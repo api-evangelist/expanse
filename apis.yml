@@ -1,8 +1,26 @@
 aid: expanse
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/expanse.png
 name: Expanse
-description: 'Expanse is a company surfaced as a portfolio company of ivp, susa-ventures, y-combinator
-  and added to the API Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Expanse (originally founded as Qadium) was a cybersecurity company specializing
+  in internet attack surface management, continuously discovering and monitoring an
+  organization''s internet-connected assets to find exposures and unmanaged risk. The
+  company was backed by IVP, Susa Ventures, and Y Combinator, and was acquired by Palo
+  Alto Networks in 2020. Its technology now ships as Cortex Xpanse, part of the Palo
+  Alto Networks Cortex platform, and the expanse.co domain 301-redirects to the Cortex
+  Xpanse product page. This profile is retained as an acquired-company lead in the API
+  Evangelist network; the company no longer operates an independent developer program
+  or public API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/expanse/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +30,19 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: palo-alto-networks
+x-successor: Cortex Xpanse
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Cybersecurity
+- Attack Surface Management
+- Security
+- Cloud Security
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +50,15 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/expanse-domain-security.yml
 - type: Website
   url: https://expanse.co
+- type: Product
+  name: Cortex Xpanse (Palo Alto Networks)
+  url: https://www.paloaltonetworks.com/cortex/cortex-xpanse
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
