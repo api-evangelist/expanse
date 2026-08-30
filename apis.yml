@@ -61,6 +61,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/palo-alto-networks/
+  name: Palo Alto Networks
+  x-relationship: acquired
+  x-evidence: "The company was backed by IVP, Susa Ventures, and Y Combinator, and was acquired by Palo Alto Networks in 2020."
 - type: DomainSecurity
   url: security/expanse-domain-security.yml
 - type: Website
