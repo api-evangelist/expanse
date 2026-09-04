@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://expanse.co', status: 301, note: 'declared website redirects to https://www.paloaltonetworks.com/cortex/cortex-xpanse — a different registrable domain (expanse.co -> paloaltonetworks.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/expanse.png
 name: Expanse
 description: 'Expanse (originally founded as Qadium) was a cybersecurity company specializing
