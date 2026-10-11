@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "expanse",
+    "captured_at": "2026-10-11T184745",
+    "source_url": "https://expanse.co",
+    "source_type": "Website",
+    "file": "expanse-2026-10-11T184745.png",
+    "bytes": 690795,
+    "capture": "playwright-local"
+  }
+]
